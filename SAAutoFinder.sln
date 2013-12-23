@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{55D9163A-9144-4238-9121-7672031710EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8F5530E4-EE1D-41FA-A730-FEEEAF095896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.Core", "AutoFinder.Core\AutoFinder.Core.csproj", "{8E936DAE-D095-41C8-9A13-82591BD38F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.Core.Testing", "AutoFinder.Core.Testing\AutoFinder.Core.Testing.csproj", "{7DEC7423-5479-4DF2-978F-49D8333EE447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.DataMining", "AutoFinder.DataMining\AutoFinder.DataMining.csproj", "{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E936DAE-D095-41C8-9A13-82591BD38F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E936DAE-D095-41C8-9A13-82591BD38F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E936DAE-D095-41C8-9A13-82591BD38F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E936DAE-D095-41C8-9A13-82591BD38F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DEC7423-5479-4DF2-978F-49D8333EE447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DEC7423-5479-4DF2-978F-49D8333EE447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DEC7423-5479-4DF2-978F-49D8333EE447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DEC7423-5479-4DF2-978F-49D8333EE447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E936DAE-D095-41C8-9A13-82591BD38F61} = {55D9163A-9144-4238-9121-7672031710EF}
+		{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51} = {55D9163A-9144-4238-9121-7672031710EF}
+		{7DEC7423-5479-4DF2-978F-49D8333EE447} = {8F5530E4-EE1D-41FA-A730-FEEEAF095896}
+	EndGlobalSection
+EndGlobal
