@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace AutoFinder.Core {
+﻿namespace AutoFinder.Core {
     public class Make {
 #region Private Members
         protected string _id;
@@ -14,7 +9,7 @@ namespace AutoFinder.Core {
         /// <summary>
         /// Unique auto maker id
         /// </summary>
-        public readonly string Id {
+        public string Id {
             get {
                 return this._id;
             }
@@ -23,7 +18,7 @@ namespace AutoFinder.Core {
         /// <summary>
         /// Name of auto maker
         /// </summary>
-        public readonly string Name {
+        public string Name {
             get {
                 return this._name;
             }
@@ -31,7 +26,7 @@ namespace AutoFinder.Core {
 #endregion
 
 #region Public Methods
-#region Constructors
+#region Constructor(s)
         /// <summary>
         /// Initializes a new instance of the Make class
         /// </summary>
