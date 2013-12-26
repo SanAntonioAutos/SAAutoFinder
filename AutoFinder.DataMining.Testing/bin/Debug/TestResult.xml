@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-12-26" time="12:06:56">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\jeremy_r\Downloads\NUnit-2.6.3\NUnit-2.6.3\bin" machine-name="SALJEREMY_R" user="jeremy_r" user-domain="LABATTSA" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll" executed="True" result="Success" success="True" time="67.340" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="AutoFinder" executed="True" result="Success" success="True" time="67.301" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="DataMining" executed="True" result="Success" success="True" time="67.300" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Testing" executed="True" result="Success" success="True" time="67.297" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Domain" executed="True" result="Success" success="True" time="67.297" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="Test_GunnAutoMiningPage" executed="True" result="Success" success="True" time="67.292" asserts="0">
+                        <results>
+                          <test-case name="AutoFinder.DataMining.Testing.Domain.Test_GunnAutoMiningPage.TestMine" executed="True" result="Success" success="True" time="67.198" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

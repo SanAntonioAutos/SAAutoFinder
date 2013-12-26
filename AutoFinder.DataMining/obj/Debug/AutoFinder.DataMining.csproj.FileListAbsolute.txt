@@ -1,0 +1,8 @@
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\bin\Debug\AutoFinder.DataMining.dll
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\bin\Debug\AutoFinder.DataMining.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\bin\Debug\HtmlAgilityPack.dll
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\bin\Debug\HtmlAgilityPack.xml
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\obj\Debug\AutoFinder.DataMining.dll
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\obj\Debug\AutoFinder.DataMining.pdb

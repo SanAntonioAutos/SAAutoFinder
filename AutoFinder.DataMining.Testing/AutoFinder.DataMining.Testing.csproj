@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}</ProjectGuid>
+    <ProjectGuid>{4C6C2710-A50C-4FEC-881B-62632ECFBDBE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AutoFinder.DataMining</RootNamespace>
-    <AssemblyName>AutoFinder.DataMining</AssemblyName>
+    <RootNamespace>AutoFinder.DataMining.Testing</RootNamespace>
+    <AssemblyName>AutoFinder.DataMining.Testing</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libraries\NUnit-2.6.3\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,19 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application\MiningServices.cs" />
-    <Compile Include="Domain\Interfaces\IMiningPage.cs" />
-    <Compile Include="Domain\MinableDealer.cs" />
-    <Compile Include="Domain\Mining Page Classes\GunnAutoMiningPage.cs" />
-    <Compile Include="Infrastructure\Factories\ObjectFactory.cs" />
-    <Compile Include="Infrastructure\Factories\StatementFactory.cs" />
-    <Compile Include="Infrastructure\Interfaces\IMiningRepository.cs" />
-    <Compile Include="Infrastructure\MiningRepository.cs" />
+    <Compile Include="Domain\Test_GunnAutoMiningPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="packages.config" />
+    <Folder Include="Application\" />
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Domain\Html\GunnAuto_20131226.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoFinder.DataMining\AutoFinder.DataMining.csproj">
+      <Project>{4C7AEB0A-A5DE-4682-9D84-27FC664F7A51}</Project>
+      <Name>AutoFinder.DataMining</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

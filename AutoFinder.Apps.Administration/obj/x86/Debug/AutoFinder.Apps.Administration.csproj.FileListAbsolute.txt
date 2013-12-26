@@ -1,0 +1,10 @@
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\AutoFinder.Apps.Administration.exe
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\AutoFinder.Apps.Administration.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\AutoFinder.DataMining.dll
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\AutoFinder.DataMining.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\obj\x86\Debug\AutoFinder.Apps.Administration.exe
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\obj\x86\Debug\AutoFinder.Apps.Administration.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Apps.Administration\bin\Debug\HtmlAgilityPack.xml
