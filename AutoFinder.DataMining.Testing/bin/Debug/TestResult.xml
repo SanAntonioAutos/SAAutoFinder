@@ -1,21 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-12-26" time="12:06:56">
-  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\jeremy_r\Downloads\NUnit-2.6.3\NUnit-2.6.3\bin" machine-name="SALJEREMY_R" user="jeremy_r" user-domain="LABATTSA" />
+<test-results name="C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-12-27" time="16:43:01">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\jeremy_r\Desktop\NUnit-2.6.3\NUnit-2.6.3\bin" machine-name="SALJEREMY_R" user="jeremy_r" user-domain="LABATTSA" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll" executed="True" result="Success" success="True" time="67.340" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll" executed="True" result="Failure" success="False" time="57.512" asserts="0">
     <results>
-      <test-suite type="Namespace" name="AutoFinder" executed="True" result="Success" success="True" time="67.301" asserts="0">
+      <test-suite type="Namespace" name="AutoFinder" executed="True" result="Failure" success="False" time="57.486" asserts="0">
         <results>
-          <test-suite type="Namespace" name="DataMining" executed="True" result="Success" success="True" time="67.300" asserts="0">
+          <test-suite type="Namespace" name="DataMining" executed="True" result="Failure" success="False" time="57.485" asserts="0">
             <results>
-              <test-suite type="Namespace" name="Testing" executed="True" result="Success" success="True" time="67.297" asserts="0">
+              <test-suite type="Namespace" name="Testing" executed="True" result="Failure" success="False" time="57.485" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="Domain" executed="True" result="Success" success="True" time="67.297" asserts="0">
+                  <test-suite type="Namespace" name="Domain" executed="True" result="Failure" success="False" time="57.485" asserts="0">
                     <results>
-                      <test-suite type="TestFixture" name="Test_GunnAutoMiningPage" executed="True" result="Success" success="True" time="67.292" asserts="0">
+                      <test-suite type="TestFixture" name="Test_GunnAutoMiningPage" executed="True" result="Failure" success="False" time="57.481" asserts="0">
                         <results>
-                          <test-case name="AutoFinder.DataMining.Testing.Domain.Test_GunnAutoMiningPage.TestMine" executed="True" result="Success" success="True" time="67.198" asserts="0" />
+                          <test-case name="AutoFinder.DataMining.Testing.Domain.Test_GunnAutoMiningPage.TestMine" executed="True" result="Error" success="False" time="57.294" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.Data.SqlClient.SqlException : The parameterized query '(@VEHICLEDEALERID nvarchar(36),@VEHICLEMAKE nvarchar(4),@VEHICLE' expects the parameter '@VEHICLEDRIVETRAIN', which was not supplied.]]></message>
+                              <stack-trace><![CDATA[at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+at AutoFinder.DataMining.Infrastructure.MiningRepository.AddVehicleInformation(List`1 vehicles) in C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\Infrastructure\MiningRepository.cs:line 172
+at AutoFinder.DataMining.Application.MiningServices.AddVehicleInformation(List`1 vehicles) in C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining\Application\MiningServices.cs:line 62
+at AutoFinder.DataMining.Testing.Domain.Test_GunnAutoMiningPage.TestMine() in C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\Domain\Test_GunnAutoMiningPage.cs:line 40
+]]></stack-trace>
+                            </failure>
+                          </test-case>
                         </results>
                       </test-suite>
                     </results>

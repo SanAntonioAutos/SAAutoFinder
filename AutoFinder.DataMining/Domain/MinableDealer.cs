@@ -2,10 +2,8 @@
 using System;
 
 namespace AutoFinder.DataMining.Domain {
-    public class MinableDealer {
+    public class MinableDealer : DealerInformation {
 #region Private Members
-        private string _dealerId;
-        private string _dealerName;
         private string _dealerUrl;
         private string _miningPageTypeName;
 
@@ -13,24 +11,6 @@ namespace AutoFinder.DataMining.Domain {
 #endregion
 
 #region Properties
-        /// <summary>
-        /// Unique assigned dealer id
-        /// </summary>
-        internal string DealerId {
-            get {
-                return this._dealerId;
-            }
-        }
-
-        /// <summary>
-        /// Name of the dealer that is mined
-        /// </summary>
-        public string DealerName {
-            get {
-                return this._dealerName;
-            }
-        }
-
         /// <summary>
         /// Url of the dealer inventory
         /// </summary>
@@ -76,9 +56,7 @@ namespace AutoFinder.DataMining.Domain {
         /// <param name="dealerName">Name of the dealer that is mined</param>
         /// <param name="dealerUrl">Url of the dealer inventory</param>
         /// <param name="miningPageTypeName">TypeName of IMiningPage instance used to parse this dealers website</param>
-        public MinableDealer(string dealerId, string dealerName, string dealerUrl, string miningPageTypeName) {
-            this._dealerId = string.Copy(dealerId);
-            this._dealerName = string.Copy(dealerName);
+        public MinableDealer(string dealerId, string dealerName, string dealerUrl, string miningPageTypeName) : base(dealerId, dealerName) {
             this._dealerUrl = string.Copy(dealerUrl);
             this._miningPageTypeName = string.Copy(miningPageTypeName);
 
@@ -101,7 +79,8 @@ namespace AutoFinder.DataMining.Domain {
                 areEqual = (
                     (((MinableDealer)obj).DealerId == this.DealerId) &&
                     (((MinableDealer)obj).DealerName == this.DealerName) &&
-                    (((MinableDealer)obj).DealerUrl == this.DealerUrl)
+                    (((MinableDealer)obj).DealerUrl == this.DealerUrl) &&
+                    (((MinableDealer)obj).MiningPageTypeName == this.MiningPageTypeName)
                 );
             }
             return areEqual;
@@ -115,7 +94,8 @@ namespace AutoFinder.DataMining.Domain {
             return (
                 this._dealerId +
                 this._dealerName +
-                this._dealerUrl
+                this._dealerUrl +
+                this._miningPageTypeName
             ).GetHashCode();
         }
 

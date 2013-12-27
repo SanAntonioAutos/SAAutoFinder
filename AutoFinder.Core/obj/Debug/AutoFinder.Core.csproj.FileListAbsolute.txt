@@ -1,5 +1,5 @@
-C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Core\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Core\bin\Debug\AutoFinder.Core.dll
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Core\bin\Debug\AutoFinder.Core.pdb
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Core\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Core\obj\Debug\AutoFinder.Core.dll
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.Core\obj\Debug\AutoFinder.Core.pdb

@@ -32,11 +32,11 @@ namespace AutoFinder.DataMining.Infrastructure {
 
 #region Interface Methods
 #region Minable Dealers
-        public void AddNewMinableDealer(MinableDealer dealer) {
+        public void AddMinableDealer(MinableDealer dealer) {
             try {
                 this._dbConnection.Open();
 
-                SqlCommand command = this._statementFactory.BuildInsertMinableDealerStatement(
+                SqlCommand command = this._statementFactory.BuildInsertMinableDealerCommand(
                     dealer,
                     this._dbConnection
                 );
@@ -57,7 +57,7 @@ namespace AutoFinder.DataMining.Infrastructure {
             try {
                 this._dbConnection.Open();
 
-                SqlCommand command = this._statementFactory.BuildSelectAllMinableDealersStatement(
+                SqlCommand command = this._statementFactory.BuildSelectAllMinableDealersCommand(
                     this._dbConnection
                 );
 
@@ -77,7 +77,7 @@ namespace AutoFinder.DataMining.Infrastructure {
             try {
                 this._dbConnection.Open();
 
-                SqlCommand command = this._statementFactory.BuildSelectMinableDealerStatement(
+                SqlCommand command = this._statementFactory.BuildSelectMinableDealerCommand(
                     dealerId,
                     this._dbConnection
                 );
@@ -108,7 +108,7 @@ namespace AutoFinder.DataMining.Infrastructure {
             try {
                 this._dbConnection.Open();
 
-                SqlCommand command = this._statementFactory.BuildDeleteMinableDealerStatement(
+                SqlCommand command = this._statementFactory.BuildDeleteMinableDealerCommand(
                     dealerId,
                     this._dbConnection
                 );
@@ -129,7 +129,7 @@ namespace AutoFinder.DataMining.Infrastructure {
             try {
                 this._dbConnection.Open();
 
-                SqlCommand command = this._statementFactory.BuildUpdateMinableDealerStatement(
+                SqlCommand command = this._statementFactory.BuildUpdateMinableDealerCommand(
                     dealer,
                     this._dbConnection
                 );
@@ -137,6 +137,50 @@ namespace AutoFinder.DataMining.Infrastructure {
                 if (command.ExecuteNonQuery() != 1) {
                     throw new Exception(string.Empty);
                 }
+            }
+            catch (Exception ex) {
+                throw;
+            }
+            finally {
+                this._dbConnection.Close();
+            }
+        }
+#endregion
+
+#region VehicleInformation
+        public void AddVehicleInformation(List<VehicleInformation> vehicles) {
+            try {
+                this._dbConnection.Open();
+
+                foreach (VehicleInformation vehicle in vehicles) {
+                    SqlCommand command = this._statementFactory.BuildInsertVehicleCommand(
+                        vehicle,
+                        this._dbConnection
+                    );
+
+                    if (command.ExecuteNonQuery() != 1) {
+                        throw new Exception(string.Empty);
+                    }
+                }
+            }
+            catch (Exception ex) {
+                throw;
+            }
+            finally {
+                this._dbConnection.Close();
+            }
+        }
+
+        public void RemoveVehicleInformationForDealer(DealerInformation dealer) {
+            try {
+                this._dbConnection.Open();
+
+                SqlCommand command = this._statementFactory.BuildDeleteVehicleInformationForDealerCommand(
+                    dealer.DealerId,
+                    this._dbConnection
+                );
+
+                command.ExecuteNonQuery();
             }
             catch (Exception ex) {
                 throw;

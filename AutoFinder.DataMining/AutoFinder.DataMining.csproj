@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application\MiningServices.cs" />
+    <Compile Include="Domain\DealerInformation.cs" />
+    <Compile Include="Domain\Enumerations\VehicleCondition.cs" />
     <Compile Include="Domain\Interfaces\IMiningPage.cs" />
     <Compile Include="Domain\MinableDealer.cs" />
     <Compile Include="Domain\Mining Page Classes\GunnAutoMiningPage.cs" />
+    <Compile Include="Domain\VehicleInformation.cs" />
     <Compile Include="Infrastructure\Factories\ObjectFactory.cs" />
     <Compile Include="Infrastructure\Factories\StatementFactory.cs" />
     <Compile Include="Infrastructure\Interfaces\IMiningRepository.cs" />

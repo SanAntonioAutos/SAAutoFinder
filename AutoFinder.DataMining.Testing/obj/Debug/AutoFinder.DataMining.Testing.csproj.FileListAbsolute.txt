@@ -1,8 +1,7 @@
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\Domain\Html\GunnAuto_20131226.html
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\Domain\Html\GunnAuto_20131227.html
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.dll
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.Testing.pdb
-C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\obj\Debug\AutoFinder.DataMining.Testing.dll
-C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\obj\Debug\AutoFinder.DataMining.Testing.pdb
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\AutoFinder.DataMining.dll
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\nunit.framework.dll
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\HtmlAgilityPack.dll
@@ -10,4 +9,6 @@ C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Tes
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\nunit.framework.xml
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\HtmlAgilityPack.xml
-C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\bin\Debug\Domain\Html\GunnAuto_20131226.html
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\obj\Debug\AutoFinder.DataMining.Testing.dll
+C:\Users\jeremy_r\Documents\jrehkop87-git\SAAutoFinder\AutoFinder.DataMining.Testing\obj\Debug\AutoFinder.DataMining.Testing.pdb

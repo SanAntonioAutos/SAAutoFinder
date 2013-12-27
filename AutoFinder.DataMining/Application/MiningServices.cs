@@ -28,8 +28,9 @@ namespace AutoFinder.DataMining.Application {
 #endregion
 
 #region Service Methods
+#region MinableDealer Methods
         public void AddMinableDealer(string dealerName, string dealerUrl, string miningPageTypeName) {
-            this._repository.AddNewMinableDealer(
+            this._repository.AddMinableDealer(
                 new MinableDealer(
                     this.GenerateGuid(),
                     dealerName,
@@ -55,9 +56,20 @@ namespace AutoFinder.DataMining.Application {
             this._repository.UpdateMinableDealer(dealer);
         }
 #endregion
+
+#region VehicleInformation Methods
+        public void AddVehicleInformation(List<VehicleInformation> vehicles) {
+            this._repository.AddVehicleInformation(vehicles);
+        }
+
+        public void RemoveVehicleInformationForDealer(DealerInformation dealer) {
+            this._repository.RemoveVehicleInformationForDealer(dealer);
+        }
+#endregion
+#endregion
 #endregion
 
-#region Private Methods
+        #region Private Methods
         private string GenerateGuid() {
             return System.Guid.NewGuid().ToString().ToUpper();
         }

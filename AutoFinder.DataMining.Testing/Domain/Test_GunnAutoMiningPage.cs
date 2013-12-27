@@ -19,7 +19,7 @@ namespace AutoFinder.DataMining.Testing.Domain {
                 "http://gunnauto.com/inventory/view/records10000/",
                 "GunnAutoMiningPage"
             );
-            this._testHtml = System.IO.File.ReadAllText("Domain/Html/GunnAuto_20131226.html");
+            this._testHtml = System.IO.File.ReadAllText("Domain/Html/GunnAuto_20131227.html");
         }
 
         [TestFixtureTearDown()]
@@ -34,6 +34,10 @@ namespace AutoFinder.DataMining.Testing.Domain {
         public void TestMine() {
             IMiningPage gunnAutoMiningPage = new GunnAutoMiningPage(this._dealer);
             gunnAutoMiningPage.Mine(this._testHtml);
+
+            Application.MiningServices services = new Application.MiningServices();
+            services.RemoveVehicleInformationForDealer(this._dealer);
+            services.AddVehicleInformation(gunnAutoMiningPage.MinedVehicles);
         }
 #endregion
     }

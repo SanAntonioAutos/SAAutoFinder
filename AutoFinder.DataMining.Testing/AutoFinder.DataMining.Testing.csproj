@@ -55,6 +55,9 @@
     <Content Include="Domain\Html\GunnAuto_20131226.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Domain\Html\GunnAuto_20131227.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutoFinder.DataMining\AutoFinder.DataMining.csproj">
